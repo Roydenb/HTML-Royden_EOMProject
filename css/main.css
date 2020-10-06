@@ -1,3 +1,15 @@
-h1{
-    background-color: red;
+#header {
+    background-color: black;
+    padding: 12px;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+
+#nav {
+    list-style: none;
+    padding: 10px;
+    background-color: whitesmoke;
+    text-align: center;
+    
 }
