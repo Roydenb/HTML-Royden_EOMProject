@@ -1,15 +1,18 @@
 #header {
-    background-color: black;
-    padding: 12px;
-    text-align: center;
-    color: red;
-    font-size: 20px;
-}
+      background-color: black;
+      padding: 12px;
+      text-align: center;
+      color: white;
+      font-size: 75px;
+    }
 
 #nav {
     list-style: none;
     padding: 10px;
-    background-color: whitesmoke;
+    background-color: white;
     text-align: center;
-    
+    }
+
+#background {
+    background-color:   black
 }
