@@ -11,8 +11,9 @@
     padding: 10px;
     background-color: white;
     text-align: center;
+    font-size:  30px;
     }
 
-#background {
-    background-color:   black
+#body{
+    background-color:  red;
 }
