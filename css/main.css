@@ -29,33 +29,39 @@
     }
 .top{
     background-color: black;
+    width: 100%;
 }
-#nav{
-    background-color: rgb(255, 10, 10) ;
-    height: 70px;
-    }
 
- div.body1{
-     background-color:black;
+  .footer{
+    padding: 100%;
+    width: 100%;
+  }
+ ul{
+   float: center;
  }
 
- .container1{
-  align-items: center;
-
- }
-.img1{
-  width: 400px;
-  height: 400px;
-  padding: 10px;
-  padding-block: 15px;
-  margin:unset;
+a.home{
+  font-size: 20px;
+  color: black;
+  float: inline-end;
 }
-body{
-  background-image: url('Images/Redbull.jpg');
-  background-color: #cccccc;
+a.faq{
+  font-size: 20px;
+  color: red;
+  float: none;
 }
+a.contact{
+    font-size: 20px;
+    color: black;
 }
-
+div.size-img{
+  width: 50%;
+  height: 50%;
+}
+img.left{
+  height: 900px;
+  width: 100%;
+}
 
 /*This section will be for the FAQ Page*/
 
