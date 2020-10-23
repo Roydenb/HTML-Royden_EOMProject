@@ -1,5 +1,5 @@
 /*This section is for the Home page*/
-#header {
+#header{
     
     background: 50% 100% / 50% 50% no-repeat
     radial-gradient(ellipse at bottom, black, transparent, transparent);
@@ -32,13 +32,16 @@
     width: 100%;
 }
 
-  .footer{
-    padding: 100%;
-    width: 100%;
-  }
- ul{
-   float: center;
- }
+.container{
+overflow: hidden;
+}
+
+.container a{
+  float: left;
+  text-align: center;
+  padding: 0px 6px;
+  text-decoration: none;
+}
 
 a.home{
   font-size: 20px;
@@ -54,14 +57,72 @@ a.contact{
     font-size: 20px;
     color: black;
 }
-div.size-img{
-  width: 50%;
-  height: 50%;
-}
-img.left{
-  height: 900px;
+
+.footer{
+  padding: 100%;
   width: 100%;
+  
 }
+
+/*Cards*/
+.img{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+}
+
+.img .model {
+    border-radius: 268px;
+    height: 407px;
+    border-width: 180px;
+    width: 414px;
+    margin-left: -80px;
+    margin-top: 71px;
+}
+
+.box{
+  width: 200px;
+  height: 610px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 37px 120px;
+  padding: 
+}
+
+.heading-2{
+  background: 50% 100% / 50% 50% no-repeat
+  radial-gradient(ellipse at bottom, red, transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 100px;
+  font-family: "Source Sans Pro", sans-serif;
+  animation: reveal 3000ms ease-in-out forwards 200ms,
+  glow 2500ms linear infinite 2000ms;
+  text-align: center;
+  background-color:black;
+  }
+  @keyframes reveal {
+      80%{
+        letter-spacing: 8px;
+      }
+      100% {
+        background-size: 300% 300%;
+      }
+    }
+    @keyframes glow {
+      40% {
+        text-shadow: 0 0 8px yellow;
+      }
+
+  }
+
+
+
 
 /*This section will be for the FAQ Page*/
 
