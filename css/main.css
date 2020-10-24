@@ -1,68 +1,3 @@
-/*This section is for the Home page*/
-#header{
-    
-    background: 50% 100% / 50% 50% no-repeat
-    radial-gradient(ellipse at bottom, black, transparent, transparent);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    font-size: 100px;
-    font-family: "Source Sans Pro", sans-serif;
-    animation: reveal 3000ms ease-in-out forwards 200ms,
-    glow 2500ms linear infinite 2000ms;
-    text-align: center;
-    background-color: red;
-    }
-    @keyframes reveal {
-        80%{
-          letter-spacing: 8px;
-        }
-        100% {
-          background-size: 300% 300%;
-        }
-      }
-      @keyframes glow {
-        40% {
-          text-shadow: 0 0 8px yellow;
-        }
-
-    }
-.top{
-    background-color: black;
-    width: 100%;
-}
-
-.container{
-overflow: hidden;
-}
-
-.container a{
-  float: left;
-  text-align: center;
-  padding: 0px 6px;
-  text-decoration: none;
-}
-
-a.home{
-  font-size: 20px;
-  color: black;
-  float: inline-end;
-}
-a.faq{
-  font-size: 20px;
-  color: red;
-  float: none;
-}
-a.contact{
-    font-size: 20px;
-    color: black;
-}
-
-.footer{
-  padding: 100%;
-  width: 100%;
-  
-}
 
 /*Cards*/
 .img{
@@ -70,6 +5,7 @@ a.contact{
   height: 100%;
   background-color: white;
   display: flex;
+  margin: -43px;
 }
 
 .img .model {
@@ -90,39 +26,304 @@ a.contact{
   justify-content: space-between;
   box-sizing: border-box;
   margin: 37px 120px;
-  padding: 
+  padding: 50px
 }
 
-.heading-2{
-  background: 50% 100% / 50% 50% no-repeat
-  radial-gradient(ellipse at bottom, red, transparent, transparent);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-size: 100px;
-  font-family: "Source Sans Pro", sans-serif;
-  animation: reveal 3000ms ease-in-out forwards 200ms,
-  glow 2500ms linear infinite 2000ms;
-  text-align: center;
-  background-color:black;
-  }
-  @keyframes reveal {
-      80%{
-        letter-spacing: 8px;
-      }
-      100% {
-        background-size: 300% 300%;
-      }
+/* About Cards*/
+.card{
+        width: 350px;
+        border: 1px solid gray;
+        box-shadow: 1px 1px 3px #888;
+        border-top: 10px solid red;
+        min-height: 250px;
+        padding: 10px;
+        margin: 10px;
     }
-    @keyframes glow {
-      40% {
-        text-shadow: 0 0 8px yellow;
-      }
+      
+    img{
+      border-radius: 50%;
+      width: 70px;
+      margin: 10px;
+    }
 
+    h1{
+      font-weight: lighter;
+      margin-left: 100px;
+      margin-top: -70px;
+    }
+    p{
+      margin: 10px;
+      font-family: segoe ui;
+      line-height: 1.4em;
+      font-size: 1.2em;
+    }
+
+    #mainbox{
+      font-family: calibri;
+      box-sizing: border-box;
+      justify-content: center;
+      display: flex;
+    flex-wrap: wrap;
+    }
+
+    .site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
   }
 
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+  
+}
+.social-icons a{
+  background-color:#eceeef;
+  color: red;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-image: url(..Images/Facebook.jpg);
+  
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
 
 
+/**/
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+h2,
+h3,
+a {
+	color: red;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+}
+
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: #34495e;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #718daa;
+}
+
+
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #a2a2a2;
+	background-color: #f4f4f4;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+  }
+  
+	.header {
+		flex-direction: column;
+		align-items: center;
+   .header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+  }
+
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}
 
 /*This section will be for the FAQ Page*/
 
@@ -134,3 +335,8 @@ a.contact{
 
 
 /*This section will be for the Contact-us Page*/
+.align-social{
+  margin: 8px;
+  padding: 59px;
+
+}
